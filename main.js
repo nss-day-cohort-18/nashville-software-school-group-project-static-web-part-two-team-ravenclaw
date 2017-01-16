@@ -13,24 +13,24 @@
 //Product is an ARRAY with OBJECTS as the values
 var product = [
 	{
-		title1: "Kitten Mittens for your infant kitty aged 5 months and under",
+		title1: "Kitten Mittons for your infant kitty aged 5 months and under",
 		description1: "Lorem ipsum dolor sit amet, quis morbi, habitasse pellentesque. Mi eget, diam ac nec, consequat posuere. Curabitur wisi, elit vestibulum. Suspendisse magnam donec, ut dictum vitae, pellentesque ultrices. Sodales nisl, porttitor pellentesque massa. Cras nunc.", 
 		price1: "PRICE: $5.00",
-		URL1: "http://www.kittenmittens.com/infants.gc",
+		URL1: "http://www.kittenmittons.com/infants.gc",
 		photo1: "images/mit1.jpg",
 	},
 	{
-		title2: "Kitten Mittens for the 'young adult' kitten aged 5 to 12 months",
+		title2: "Kitten Mittons for the 'young adult' kitten aged 5 to 12 months",
 		description2: "Lorem ipsum dolor sit amet, dolorem vel malesuada. Mauris etiam pretium, at ut, nisl rhoncus. Dolor et, tincidunt commodi. Vestibulum vehicula nulla. Amet velit. Sed tristique, ac massa.",
 		price2: "PRICE: $10.00",
-		URL2: "hhttp://www.kittenmittens.com/youth.gc",
+		URL2: "hhttp://www.kittenmittons.com/youth.gc",
 		photo2: "images/mit2.jpg",
 	},
 	{
-		title3: "Kitten Mittens for your Kitty age 1 to DEATH",
+		title3: "Kitten Mittonss for your Kitty age 1 to DEATH",
 		description3: "Lorem ipsum dolor sit amet, pellentesque rhoncus. Congue donec eget. Phasellus hac, justo vestibulum, vestibulum praesent lectus. A tellus risus, montes vitae. Quis tortor, pretium non, feugiat enim. Suspendisse placerat leo.",
 		price3: "PRICE: $15.00",
-		URL3: "http://www.kittenmittens.com/senior.gc",
+		URL3: "http://www.kittenmittons.com/senior.gc",
 		photo3: "images/mit3.jpg",
 	},
 	/* {
