@@ -5,8 +5,12 @@
 body {
 	margin: 0;
 	min-width: 750px;
-	background-color: #BDBDBD;
+
+	background-color: #545454;
+  background:  url(./gif/giphy.gif) no-repeat center center fixed;
+  background-size: cover;
 }
+
 
 section {
 	background-color: rgba(179, 106, 94, 0.4);
@@ -310,7 +314,7 @@ footer ul li:hover a {
 }
 
 .slight-margin3 {
-	margin-top: 2%; 
+	margin-top: 2%;
 	margin-right: 2%;
 }
 
@@ -412,7 +416,7 @@ footer ul li:hover a {
 	width: 80%;
 	height: 70%;
 
-	background-image: url("https://media.giphy.com/media/iU2yJX5YKI9pe/giphy.gif");	
+	background-image: url("https://media.giphy.com/media/iU2yJX5YKI9pe/giphy.gif");
 	background-position: center;
 	background-repeat: none;
 	background-size: cover;
@@ -535,7 +539,7 @@ footer ul li:hover a {
 	width: 80%;
 	height: 65%;
 
-	background-image: url("https://68.media.tumblr.com/21dbff4f6e5fe7fcce3c3a85c5d9388b/tumblr_n5ra7tp0Ip1qfqv8do1_500.gif");	
+	background-image: url("https://68.media.tumblr.com/21dbff4f6e5fe7fcce3c3a85c5d9388b/tumblr_n5ra7tp0Ip1qfqv8do1_500.gif");
 	background-position: center;
 	background-repeat: none;
 	background-size: cover;
