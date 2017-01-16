@@ -1,0 +1,705 @@
+/****************
+	BASE STYLES
+****************/
+
+body {
+	margin: 0;
+	min-width: 750px;
+	background-color: #EEE2DF;
+}
+
+section {
+	background-color: rgba(179, 106, 94, 0.4);
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/****************
+	NAVIGATION
+****************/
+
+nav {
+	background-color: #b041c7;;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+	margin: 0 -2px;
+}
+
+nav ul li a {
+	font-size: 1.4em;
+}
+
+nav ul li:hover a {
+	color: #660000;
+}
+
+nav ul li:hover{
+	background-color: #eee2df;
+
+}
+
+.navbar-logo {
+	float: right;
+	color: white;
+	font-size: 1.4em;
+	pointer-events: none;
+}
+ .active-page-li {
+ 	background-color: #eee2df;
+ }
+
+.active-page-li a {
+	color: #660000;
+}
+
+/****************
+	FOOTER
+****************/
+
+footer {
+	background-color: #c89f9c;
+	color: white;
+	margin: 0;
+	padding: 1px 0;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	/*padding-top: 5px;*/
+}
+
+footer ul li {
+	display: inline-block;
+	padding: 10px 5px 0 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer ul li:hover a {
+	color: #660000;
+}
+
+.footer-references {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#footer {
+	max-height: 66px;
+	clear: both;
+}
+
+
+/****************
+	HOME
+****************/
+
+#home-wrapper {
+	color: white;
+}
+
+#home-image-background {
+	text-align: right;
+	height: 750px;
+	padding-top: 1px;
+	background: linear-gradient(#b36a5e, transparent 75%),
+				url('http://wallpapercave.com/wp/kh1thQE.jpg');
+}
+
+#home-image-background h1 {
+	font-size: 4em;
+	padding: 35px 100px 0 0;
+	font-style: italic;
+}
+
+#home-article-wrapper {
+	color: #660000;
+	width: 60%;
+	margin: 0 auto;
+	padding: 1px 0;
+}
+
+.home-article h2 {
+	font-size: 3em;
+	font-style: italic;
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+.home-article p {
+	font-size: 1.5em;
+	padding: 0 50px 10px 50px;
+}
+
+.home-article img{
+	display:block;
+	margin: 0 auto;
+	height: 240px;
+	width: 80%;
+	padding-bottom: 50px;
+}
+
+
+/****************
+	PRODUCTS
+****************/
+
+#whole-products-html {
+	min-width: 1120px;
+}
+
+.title-products {
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	max-width: 80.3%;
+	height: 100%;
+	font-size: 2em;
+	padding: 0;
+	min-width: 900px;
+}
+
+.title-products h3 {
+	margin: 0;
+	padding: 2%;
+	background-color: rgba(144, 89, 76, 0.5);
+}
+
+#something {
+	padding: 0;
+	margin: 0 auto;
+	max-width: 80%;
+	height: 100%;
+	display: block;
+	border: 2px solid #660000;
+}
+
+#main-content {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../images/Productbackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	background-position: center top;
+	background-size: 80.4% 100%;
+	min-width: 900px;
+}
+
+.productCards {
+	background-color: rgba(144, 89, 76, 0.5);
+	padding: 0;
+	display: inline-block;
+	height: 420px;
+	width: 30%;
+	margin: 1%;
+	vertical-align: top;
+	border: 3px solid #c89f9c;
+	border-radius: 2px;
+}
+
+.productCards h2 {
+	font-size: 0.90em;
+}
+
+.productCards p {
+	font-size: 0.85em;
+}
+
+.productCardsPhoto {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: .5em;
+	list-style: none;
+	display: block;
+	text-align: center;
+}
+
+.productCardTitle {
+	text-align: center;
+	height: 10%;
+	padding: 0;
+}
+
+.productCardDescription {
+	text-align: justify;
+	overflow: scroll;
+	height: 20%;
+	border: 2px solid #660000;
+	padding: .5em;
+	background-color: #c89f9c;
+}
+
+.productCardWebsite:hover {
+	color: #c89f9c;
+}
+
+.productCardPrice {
+	font-weight: bold;
+}
+
+.productCardTitle,
+.productCardDescription,
+.productCardPrice,
+.productCardWebsite {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.productCardWebsite {
+	overflow: scroll;
+	display: block;
+}
+
+#photo1,
+#photo2,
+#photo3,
+#photo4,
+#photo5,
+#photo6 {
+	border-radius: 20%;
+}
+
+.slight-margin1 {
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.slight-margin2 {
+	margin-top: 2%;
+}
+
+.slight-margin3 {
+	margin-top: 2%; 
+	margin-right: 2%;
+}
+
+.slight-margin4 {
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+.slight-margin5 {
+	margin-bottom: 2%;
+}
+
+.slight-margin6 {
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+.slight-margin7 {
+	margin-left: 2%;
+}
+
+.slight-margin8 {
+	margin-right: 2%;
+}
+
+.regular-margin {
+	margin: 1%;
+}
+
+
+/****************
+	ABOUT
+****************/
+
+.about-start-end {
+	max-width: 50%;
+	text-align: center;
+	margin: 1em auto;
+	color: white;
+	border: 2px solid black;
+	background-color: #c89f9c;
+	border-radius: 25px;
+	clear: both;
+}
+
+
+#body {
+	display: block;
+	clear: both;
+	padding-bottom: 10%;
+}
+
+#about1 {
+	max-width: 60%;
+	height: 300px;
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 20%;
+	margin-right: 20%;
+
+	border: 5px double black;
+	border-radius: 50px;
+	background-color: white;
+}
+
+#about1-filler {
+	margin-left: 30%;
+	margin-right: 30%;
+
+	background-image: url("../images/cat2.jpg");
+	background-position: center;
+	background-repeat: none;
+	height: 100%;
+}
+
+/*******************/
+
+#about2 {
+	width: 30%;
+	height: 300px;
+
+	margin-left: 15%;
+	margin-bottom: 2em;
+	display: inline-block;
+	float: left;
+
+	border: 5px double black;
+	border-radius: 50px;
+
+	background-color: black;
+}
+
+
+#about2-filler {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	width: 80%;
+	height: 70%;
+
+	background-image: url("https://media.giphy.com/media/iU2yJX5YKI9pe/giphy.gif");	
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	background-size: 94%;
+	background-repeat: none;
+}
+
+#about3 {
+	width: 30%;
+	height: 300px;
+
+	margin-right: 15%;
+	margin-bottom: 2em;
+	display: inline-block;
+	float: right;
+
+	border: 5px double black;
+	border-radius: 50px;
+	background-color: #c89f9c;
+}
+
+#about3-content {
+	text-align: center;
+	height: 70%;
+	width: 70%;
+	margin-top: 10%;
+	margin-left: 15%;
+	background-color: #EEE2DF;
+	border-radius: 50px;
+}
+
+#about3-content > h2 {
+	padding: 1em;
+}
+
+
+
+
+/*******************/
+
+#about4 {
+	max-width: 80%;
+	height: 300px;
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	border: 5px double black;
+	border-radius: 50px;
+	background-color: white;
+
+	clear: both;
+}
+
+#about4-filler {
+	margin-left: 30%;
+	margin-right: 30%;
+
+	background-image: url("../images/cat2-flipped.jpg");
+	background-position: center;
+	background-repeat: none;
+	height: 100%;
+}
+
+/*******************/
+
+
+#about5 {
+	width: 30%;
+	height: 300px;
+
+	margin-left: 15%;
+	margin-bottom: 2em;
+	display: inline-block;
+	float: left;
+
+	border: 5px double black;
+	border-radius: 50px;
+	background-color: #c89f9c;
+
+	vertical-align: middle;
+	text-align: center;
+}
+
+#about5-content {
+	text-align: center;
+	height: 60%;
+	width: 70%;
+	margin: 15%;
+	margin-top: 15%;
+	background-color: #EEE2DF;
+	border-radius: 50px;
+}
+
+#about5-content > h2 {
+	padding: 1em;
+}
+
+#about6 {
+	width: 30%;
+	height: 300px;
+
+	margin-right: 15%;
+	margin-bottom: 2em;
+	display: inline-block;
+	float: right;
+
+	border: 5px double black;
+	border-radius: 50px;
+
+	background-color: black;
+}
+
+#about6-filler {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 12.5%;
+	width: 80%;
+	height: 65%;
+
+	background-image: url("https://68.media.tumblr.com/21dbff4f6e5fe7fcce3c3a85c5d9388b/tumblr_n5ra7tp0Ip1qfqv8do1_500.gif");	
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	background-size: 100%;
+	background-repeat: none;
+}
+
+
+
+
+/****************
+HISTORY PAGE
+****************/
+
+
+#listOfProfiles {
+	padding: 0;
+	margin: 0 auto;
+	width: 750px;
+	height: 100%;
+	display: block;
+}
+
+#title-history {
+	background-color: rgba(144, 89, 76, 0.4);
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 750px;
+}
+
+#title-history h2 {
+	margin: 0 0 -18px 0;
+	padding: 20px 20px;
+	color: white;
+	font-size: 3.0em;
+	font-weight: bold;
+}
+
+#listOfProfiles section {
+	background-color: rgba(144, 89, 76, 0.4);
+}
+
+.profile ul {
+	display: block;
+	width: 705px;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.profile ul li {
+	margin: 20px 20px;
+	height: 340px;
+	display: inline-block;
+}
+
+.profile ul li img {
+	margin: 15px 15px;
+}
+
+.adjRight {
+	float: right;
+}
+
+.adjRight img {
+	margin: 15px 0 0 0;
+}
+
+.adjLeft {
+	float: left;
+}
+
+.name {
+	margin: 0 0 15px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.bio {
+	text-align: justify;
+	width: 325px;
+	padding: 0;
+	color: white;
+}
+
+.bioParagraph {
+	white-space: initial;
+	overflow: scroll;
+	text-align: justify;
+	width: 325px;
+	height: 90%;
+	padding: 0;
+	margin: 0;
+}
+
+
+.photo {
+	border-radius: 50%;
+}
+
+#history {
+	background-size: 750px 810px;
+	background-image: url("../images/Historybackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+
+/****************
+	CONTACT
+****************/
+
+#contacts-content {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#contact {
+	background-size: 750px 750px;
+	background-image: url("../images/Contactsbackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+.contactpage {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	color: white;
+	width: 50%:;
+}
+
+.contactpage-map {
+	margin: 0 auto;
+	width: 750px;
+	overflow: hidden;
+}
+
+.contactpage-map-left {
+	width: 400px;
+	height: 250px;
+	display: inline-block;
+	margin: 4px;
+}
+
+.contactpage-map-right {
+	float: right;
+	clear: right;
+	width: 44%;
+	margin: 4px;
+	color: white;
+}
+
+#contactpage_end {
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+#contactpage_end a {
+	text-decoration: none;
+	color: white;
+}
+
+#contactpage_end a:hover {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
