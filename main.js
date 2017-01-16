@@ -5,7 +5,7 @@
 // The team will use JavaScript to add each product to the DOM.
 // Each product must be a card, much like everyone made in the Static Web quiz. As a team, decide on the style of the card.
 // The layout of the product page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
-/*=============================================*/
+/*======================================*/
 
 
 
@@ -24,7 +24,7 @@ var product = [
 		description2: "Lorem ipsum dolor sit amet, dolorem vel malesuada. Mauris etiam pretium, at ut, nisl rhoncus. Dolor et, tincidunt commodi. Vestibulum vehicula nulla. Amet velit. Sed tristique, ac massa.",
 		price2: "PRICE: $10.00",
 		URL2: "hhttp://www.kittenmittons.com/youth.gc",
-		photo2: "images/mit2.jpg",
+		photo2: "images/mit2.JPG",
 	},
 	{
 		title3: "Kitten Mittonss for your Kitty age 1 to DEATH",
