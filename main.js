@@ -24,7 +24,7 @@ var product = [
 		description2: "Lorem ipsum dolor sit amet, dolorem vel malesuada. Mauris etiam pretium, at ut, nisl rhoncus. Dolor et, tincidunt commodi. Vestibulum vehicula nulla. Amet velit. Sed tristique, ac massa.",
 		price2: "PRICE: $10.00",
 		URL2: "hhttp://www.kittenmittens.com/youth.gc",
-		photo2: "images/mit2.jpg",
+		photo2: "images/mit2.JPG",
 	},
 	{
 		title3: "Kitten Mittens for your Kitty age 1 to DEATH",
