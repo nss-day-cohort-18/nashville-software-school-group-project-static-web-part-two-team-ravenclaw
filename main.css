@@ -135,8 +135,8 @@ footer ul li:hover a {
 	text-align: right;
 	height: 750px;
 	padding-top: 1px;
-	background: linear-gradient(#b36a5e, transparent 75%),
-				url('http://wallpapercave.com/wp/kh1thQE.jpg');
+	background: no-repeat, linear-gradient(#b36a5e, transparent 75%),
+				url('kittenmittons.jpg');
 }
 
 #home-image-background h1 {
