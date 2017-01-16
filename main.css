@@ -140,8 +140,8 @@ footer ul li:hover a {
 	height: 750px;
 	padding-top: 1px;
 /*	background: linear-gradient(#b36a5e, transparent 75%), url('kittenmittons.jpg'); */
-	background: url('kittenmittons.jpg');
-	background-repeat: no-repeat;
+/*	background: url('kittenmittons.jpg');
+	background-repeat: no-repeat; */
 
 /* 	background: no-repeat, linear-gradient(#b36a5e, transparent 75%),
 				url('kittenmittons.jpg'); */
