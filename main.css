@@ -6,16 +6,16 @@ body {
 	margin: 0;
 	min-width: 750px;
 
-	background-color: #545454;
+	background-color: #403F4C;
   background:  url(./gif/giphy.gif) no-repeat center center fixed;
   background-size: cover;
 }
 
-
+/*
 section {
 	background-color: rgba(179, 106, 94, 0.4);
 }
-
+*/
 .container {
 	margin: 0;
 	padding: 0;
@@ -27,14 +27,14 @@ section {
 ****************/
 
 nav {
-	background-color: #b041c7;;
+	background-color: #2C2B3C;
 	margin: 0;
 	padding: 0;
 }
 
 nav a {
 	text-decoration: none;
-	color: white;
+	color: #B76D68;
 }
 
 nav ul {
@@ -82,8 +82,8 @@ nav ul li:hover{
 ****************/
 
 footer {
-	background-color: #c89f9c;
-	color: white;
+	background-color: #2C2B3C;
+	color: #B76D68;
 	margin: 0;
 	padding: 1px 0;
 }
@@ -102,11 +102,11 @@ footer ul li {
 
 footer a {
 	text-decoration: none;
-	color: white;
+	color: #660000;
 }
 
 footer ul li:hover a {
-	color: #660000;
+	color: #B76D68;
 }
 
 .footer-references {
@@ -132,7 +132,7 @@ footer ul li:hover a {
 ****************/
 
 #home-wrapper {
-	color: white;
+	color: #EBD7D5;
 }
 
 #home-image-background {
@@ -155,7 +155,7 @@ footer ul li:hover a {
 }
 
 #home-article-wrapper {
-	color: #660000;
+	color: #eee2df;
 	width: 60%;
 	margin: 0 auto;
 	padding: 1px 0;
@@ -192,7 +192,7 @@ footer ul li:hover a {
 
 .title-products {
 	text-align: center;
-	color: white;
+	color: #EBD7D5;
 	margin: 0 auto;
 	max-width: 80.3%;
 	height: 100%;
