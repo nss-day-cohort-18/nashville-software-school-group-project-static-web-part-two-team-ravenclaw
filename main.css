@@ -5,10 +5,10 @@
 body {
 	margin: 0;
 	min-width: 750px;
+
 	background-color: #545454;
   background:  url(./gif/giphy.gif) no-repeat center center fixed;
   background-size: cover;
-
 }
 
 
@@ -139,8 +139,13 @@ footer ul li:hover a {
 	text-align: right;
 	height: 750px;
 	padding-top: 1px;
-	background: no-repeat, linear-gradient(#b36a5e, transparent 75%),
-				url('kittenmittons.jpg');
+/*	background: linear-gradient(#b36a5e, transparent 75%), url('kittenmittons.jpg'); */
+	background: url('kittenmittons.jpg');
+	background-repeat: no-repeat;
+
+/* 	background: no-repeat, linear-gradient(#b36a5e, transparent 75%),
+				url('kittenmittons.jpg'); */
+
 }
 
 #home-image-background h1 {
