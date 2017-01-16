@@ -655,16 +655,16 @@ HISTORY PAGE
 ****************/
 
 #contacts-content {
-	width: 750px;
+	/* width: 750px; */
 	margin: 0 auto;
 }
 
 #contact {
-	background-size: 750px 750px;
-	background-image: url("../images/Contactsbackground.jpg");
-	background-repeat: no-repeat;
+	/* background-size: 750px 750px; */
+	background-color: #403F4C;
+	/*background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center top;
+	background-position: center top;*/
 }
 
 .contactpage {
@@ -672,7 +672,7 @@ HISTORY PAGE
 	text-align: center;
 	display: block;
 	color: white;
-	width: 50%:;
+	/* width: 50%; */
 }
 
 .contactpage-map {
