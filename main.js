@@ -1,15 +1,3 @@
-// The team's product page will be driven from JavaScript code. Decide on the names of, at least, 8 products that your business manufactures. The product page must have a linked JavaScript file.
-
-// Create an array to hold your products.
-// Each item in the array must be an object that contains the following information: name, description, price, and URL for product image. You can add more properties if that's what the team wants, but it must have those.
-// The team will use JavaScript to add each product to the DOM.
-// Each product must be a card, much like everyone made in the Static Web quiz. As a team, decide on the style of the card.
-// The layout of the product page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
-/*======================================*/
-
-
-
-
 //Product is an ARRAY with OBJECTS as the values
 var product = [
 	{
@@ -78,28 +66,9 @@ var product = [
 	}
 ];
 
-
-//Grabbing the div that will be wrapping the 
-//product cards
 var sectionEntirety = document.getElementById("something");
-
 var productLength = product.length;
 
-
-
-/*---
-The purpose of this function:
-1. Cycle through each object or product
-2. Grab both key and value pairs to 
-	push to DOM and use for id naming
-3.Assign id names for each element created, and class
-	name for the product cards in general
-4. Create div to hold the contents of productcard
-5. Create header for each card
-6. Create paragraph for description, price, and url
-7. Update content to appropriate elements
-8. Append elements appropriately
----*/
 var counter = 0;
 var margin1 = 1;
 var margin2 = 2;
@@ -119,11 +88,6 @@ function innerPushin() {
 			myValues.push(Object.values(something));
 			myKeys.push(Object.keys(something));
 
-
-			/*========================================*/
-			/*========================================*/
-
-
 			//Creating ID's absed on key names of 
 			//each array of "something" within
 			//product
@@ -142,54 +106,11 @@ function innerPushin() {
 			var websiteContent = myValues[0][3];
 			var photoContent = myValues[0][4];
 
-
-			/*========================================*/
-			/*========================================*/
-
-
 			//Create div to hold both description and photo
 			counter += 1;
 			var totalCard = document.createElement("div");
 			totalCard.className = "productCards";
 			totalCard.id = "productCard" + counter.toString();
-
-
-			//This is giving each product card a 
-			//specific class name based on location of the page
-			//so all margin's in between are the same
-			/* if ((productLength - 2) === counter) {
-				totalCard.className += " slight-margin4";
-				margin1 += 3;
-			} else if ((productLength - 1) === counter) {
-				totalCard.className += " slight-margin5";
-				margin2 += 3;
-			} else if (productLength === counter) {
-				totalCard.className += " slight-margin6";
-				margin3 += 3;
-			} else if (counter === 1) {
-				totalCard.className += " slight-margin1";
-				margin1 += 3;
-			} else if (counter === 2) {
-				totalCard.className += " slight-margin2";
-				margin2 += 3;
-			} else if (counter === 3) {
-				totalCard.className += " slight-margin3";
-				margin3 += 3;
-			} else if (counter === margin1) {
-				totalCard.className += " slight-margin7";
-				margin1 += 3;
-			} else if (counter === margin3) {
-				totalCard.className += " slight-margin8";
-				margin3 += 1;
-			} else {
-				totalCard.className += " regular-margin";
-			}; */
-			
-
-
-			/*========================================*/
-			/*========================================*/
-
 
 			//Create description elements with 
 			//appropriate classes and id's
@@ -207,11 +128,6 @@ function innerPushin() {
 			website.className = "productCardWebsite";
 			website.href = websiteContent;
 			website.target = "_blank";
-
-
-			/*========================================*/
-			/*========================================*/
-
 
 			//Create div for photo
 			var photoDiv = document.createElement("div");
@@ -239,11 +155,6 @@ function innerPushin() {
 				console.log("Something screw-y with matching alt names.");
 			};
 
-
-			/*========================================*/
-			/*========================================*/
-			
-
 			//This function is to give each link tag within 
 			//product card a custom URL
 			function truncateAfter(original, pattern) {
@@ -259,13 +170,6 @@ function innerPushin() {
 			head.innerHTML += titleContent;
 			para.innerHTML += descriptionContent;
 			price.innerHTML += priceContent;
-			/* website.innerHTML += truncateAfter(websiteContent, "com/"); */
-
-
-
-			/*========================================*/
-			/*========================================*/
-
 
 			//Appending ALL content appropriately
 			sectionEntirety.appendChild(totalCard);
@@ -281,8 +185,6 @@ function innerPushin() {
     }
 };
 
-
-//Call'd
 innerPushin();
 
 
