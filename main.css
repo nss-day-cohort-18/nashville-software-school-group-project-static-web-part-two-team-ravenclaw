@@ -162,9 +162,12 @@ footer a:hover {
 }
 
 #home-image-background h1 {
-	font-size: 4em;
-	padding: 0px 120px 0 0;
+	font-size: 2em;
+	/* padding: 0px 120px 0 0; */
+	padding-right: 120px;
 	font-style: italic;
+	margin-top: 40px;
+	text-align: right;
 }
 
 #home-article-wrapper {
@@ -175,10 +178,11 @@ footer a:hover {
 }
 
 .home-article h2 {
-	font-size: 3em;
-	font-style: italic;
+	font-size: 2em;
+	font-style: bold;
 	text-decoration: underline;
-	padding-left: 20px;
+	padding-left: 10px;
+	margin-bottom: 10px;
 }
 
 .home-article p {
