@@ -56,6 +56,7 @@ nav ul li a {
 
 nav ul li:hover a {
 	color: #660000;
+	text-transform: uppercase;
 }
 
 nav ul li:hover{
@@ -75,6 +76,7 @@ nav ul li:hover{
 
 .active-page-li a {
 	color: #660000;
+	text-transform: uppercase;
 }
 
 /****************
@@ -119,6 +121,7 @@ footer ul li:hover a {
 	padding: 0;
 	text-align: center;
 	text-decoration: underline;
+
 }
 
 .footer-copyright {
@@ -131,6 +134,9 @@ footer ul li:hover a {
 	clear: both;
 }
 
+footer a:hover {
+	text-transform: uppercase;
+}
 
 /****************
 	HOME
@@ -142,7 +148,8 @@ footer ul li:hover a {
 
 #home-image-background {
 	text-align: right;
-	height: 750px;
+	/* height: 750px; */
+	height: 500px;
 	padding-top: 1px;
 /*	background: linear-gradient(#b36a5e, transparent 75%), url('kittenmittons.jpg'); */
 /*	background: url('kittenmittons.jpg');
@@ -155,7 +162,7 @@ footer ul li:hover a {
 
 #home-image-background h1 {
 	font-size: 4em;
-	padding: 35px 100px 0 0;
+	padding: 0px 120px 0 0;
 	font-style: italic;
 }
 
@@ -178,7 +185,7 @@ footer ul li:hover a {
 	padding: 0 50px 10px 50px;
 }
 
-.home-article img{
+.home-article img {
 	display:block;
 	margin: 0 auto;
 	height: 240px;
@@ -204,12 +211,15 @@ footer ul li:hover a {
 	font-size: 2em;
 	padding: 0;
 	min-width: 900px;
+	color: white;
 }
 
 .title-products h3 {
 	margin: 0;
 	padding: 2%;
 	background-color: rgba(144, 89, 76, 0.5);
+	border-right: 2px solid #660000;
+	border-left: 2px solid #660000;
 }
 
 #something {
@@ -224,7 +234,7 @@ footer ul li:hover a {
 #main-content {
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url("../images/Productbackground.jpg");
+	/* background-image: url("../images/Productbackground.jpg"); */
 	background-repeat: no-repeat;
 	background-attachment: inherit;
 	background-position: center top;
@@ -233,7 +243,7 @@ footer ul li:hover a {
 }
 
 .productCards {
-	background-color: rgba(144, 89, 76, 0.5);
+	background-color: rgba(144, 89, 76, 0.6);
 	padding: 0;
 	display: inline-block;
 	height: 420px;
@@ -573,7 +583,8 @@ HISTORY PAGE
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
-	width: 750px;
+	width: 746px;
+	border: 2px solid #660000; 
 }
 
 #title-history h2 {
@@ -586,6 +597,15 @@ HISTORY PAGE
 
 #listOfProfiles section {
 	background-color: rgba(144, 89, 76, 0.4);
+	border-left: 2px solid #660000;
+	border-right: 2px solid #660000;
+	border-bottom: 2px solid #660000;
+}
+
+.aboutpg {
+	padding-top: 25px;
+	padding-left: 40px;
+
 }
 
 .profile ul {
@@ -643,6 +663,12 @@ HISTORY PAGE
 
 .photo {
 	border-radius: 50%;
+	border: 2px solid #660000;
+}
+
+.aboutphoto {
+	border-radius: 50%;
+	border: 2px solid #660000;
 }
 
 #history {
@@ -683,6 +709,8 @@ HISTORY PAGE
 	margin: 0 auto;
 	width: 750px;
 	overflow: hidden;
+	padding-top: 12px;
+	padding-bottom: 5px;
 }
 
 .contactpage-map-left {
@@ -718,4 +746,8 @@ HISTORY PAGE
 }
 #colorChange {
 	color: white;
+}
+
+#contactpageimage {
+	border: 2px solid #660000;
 }
