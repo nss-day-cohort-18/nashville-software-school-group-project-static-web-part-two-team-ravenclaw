@@ -58,11 +58,11 @@ var product = [
 		photo8: "images/mit8.jpg",
 	},
 	{
-		title8: "Suburban Mittons",
-		description8: "For the Williamson County Kitty",
-		price8: "PRICE: $40.00",
-		URL8: "http://www.kittenmittens.com/suburb.gc",
-		photo8: "images/mit9.jpg",
+		title9: "Suburban Mittons",
+		description9: "For the Williamson County Kitty",
+		price9: "PRICE: $40.00",
+		URL9: "http://www.kittenmittens.com/suburb.gc",
+		photo9: "images/mit9.jpg",
 	}
 ];
 
