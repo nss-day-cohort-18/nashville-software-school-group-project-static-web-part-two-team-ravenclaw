@@ -730,7 +730,7 @@ HISTORY PAGE
 
 /* from https://css-tricks.com/almanac/properties/a/animation/ */
 .pulsate {
-    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation: pulsate 4s ease-out;
     -webkit-animation-iteration-count: infinite; 
     opacity: 0.5;
 }
