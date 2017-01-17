@@ -102,7 +102,12 @@ footer ul li {
 
 footer a {
 	text-decoration: none;
-	color: #660000;
+/* 	color: #660000; */
+	color: #B76D68;
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
 
 footer ul li:hover a {
@@ -539,7 +544,7 @@ footer ul li:hover a {
 	width: 80%;
 	height: 65%;
 
-	background-image: url("https://68.media.tumblr.com/21dbff4f6e5fe7fcce3c3a85c5d9388b/tumblr_n5ra7tp0Ip1qfqv8do1_500.gif");
+	/* background-image: url("https://68.media.tumblr.com/21dbff4f6e5fe7fcce3c3a85c5d9388b/tumblr_n5ra7tp0Ip1qfqv8do1_500.gif"); */
 	background-position: center;
 	background-repeat: none;
 	background-size: cover;

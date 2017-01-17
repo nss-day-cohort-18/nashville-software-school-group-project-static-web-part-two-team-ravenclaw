@@ -201,21 +201,21 @@ function innerPushin() {
 
 			//Giving images specific alt names 
 			//based on key name.
-			/* if (titleIdName === "title1") {
-				img.alt = "Gibson Hummingbird";
+			if (titleIdName === "title1") {
+				img.alt = "Kitten Mittons Infant";
 			} else if (titleIdName === "title2") {
-				img.alt = "Martin D-28";
+				img.alt = "Kitten Mittons Young Adult";
 			} else if (titleIdName === "title3") {
-				img.alt = "Larivee";
-			} else if (titleIdName === "title4") {
+				img.alt = "Kitten Mittons Adult";
+			/* } else if (titleIdName === "title4") {
 				img.alt = "Fender Telecaster";
 			} else if (titleIdName === "title5") {
 				img.alt = "PRS Baritone";
 			} else if (titleIdName === "title6") {
-				img.alt = "Gretsch White Falcon";
+				img.alt = "Gretsch White Falcon"; */
 			} else { 
 				console.log("Something screw-y with matching alt names.");
-			}; */
+			};
 
 
 			/*========================================*/
