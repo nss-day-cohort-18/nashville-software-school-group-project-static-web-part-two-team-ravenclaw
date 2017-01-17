@@ -10,11 +10,6 @@ body {
     background-size: cover;
 }
 
-/*
-section {
-	background-color: rgba(179, 106, 94, 0.4);
-}
-*/
 .container {
 	margin: 0;
 	padding: 0;
@@ -96,7 +91,6 @@ footer ul {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	/*padding-top: 5px;*/
 }
 
 footer ul li {
@@ -106,7 +100,6 @@ footer ul li {
 
 footer a {
 	text-decoration: none;
-/* 	color: #660000; */
 	color: #B76D68;
 }
 
@@ -152,18 +145,11 @@ footer a:hover {
 	text-align: right;
 	height: 400px;
 	padding-top: 1px;
-/*	background: linear-gradient(#b36a5e, transparent 75%), url('kittenmittons.jpg'); */
-/*	background: url('kittenmittons.jpg');
-	background-repeat: no-repeat; */
-
-/* 	background: no-repeat, linear-gradient(#b36a5e, transparent 75%),
-				url('kittenmittons.jpg'); */
 
 }
 
 #home-image-background h1 {
 	font-size: 2em;
-	/* padding: 0px 120px 0 0; */
 	padding-right: 120px;
 	font-style: italic;
 	margin-top: 40px;
@@ -222,7 +208,7 @@ footer a:hover {
 .title-products h3 {
 	margin: 0;
 	padding: 2%;
-	background-color: rgba(144, 89, 76, 0.5);
+	background-color: rgba(32, 38, 211, 0.2);
 	border-right: 2px solid #660000;
 	border-left: 2px solid #660000;
 }
@@ -239,7 +225,6 @@ footer a:hover {
 #main-content {
 	margin-left: auto;
 	margin-right: auto;
-	/* background-image: url("../images/Productbackground.jpg"); */
 	background-repeat: no-repeat;
 	background-attachment: inherit;
 	background-position: center top;
@@ -248,14 +233,14 @@ footer a:hover {
 }
 
 .productCards {
-	background-color: rgba(144, 89, 76, 0.6);
+	background-color: rgba(32, 38, 211, 0.2);
 	padding: 0;
 	display: inline-block;
-	height: 420px;
+	height: 350px;
 	width: 30%;
 	margin: 1%;
 	vertical-align: top;
-	border: 3px solid #c89f9c;
+	border: 2px solid rgb(32, 38, 211);
 	border-radius: 2px;
 }
 
@@ -284,12 +269,9 @@ footer a:hover {
 }
 
 .productCardDescription {
-	text-align: justify;
 	overflow: scroll;
-	height: 20%;
-	border: 2px solid #660000;
+	height: 10%;
 	padding: .5em;
-	background-color: #c89f9c;
 }
 
 .productCardWebsite:hover {
@@ -320,7 +302,9 @@ footer a:hover {
 #photo3,
 #photo4,
 #photo5,
-#photo6 {
+#photo6,
+#photo7,
+#photo8 {
 	border-radius: 20%;
 }
 
@@ -411,8 +395,6 @@ footer a:hover {
 	height: 100%;
 }
 
-/*******************/
-
 #about2 {
 	width: 30%;
 	height: 300px;
@@ -472,11 +454,6 @@ footer a:hover {
 	padding: 1em;
 }
 
-
-
-
-/*******************/
-
 #about4 {
 	max-width: 80%;
 	height: 300px;
@@ -502,9 +479,6 @@ footer a:hover {
 	background-repeat: none;
 	height: 100%;
 }
-
-/*******************/
-
 
 #about5 {
 	width: 30%;
@@ -559,16 +533,12 @@ footer a:hover {
 	width: 80%;
 	height: 65%;
 
-	/* background-image: url("https://68.media.tumblr.com/21dbff4f6e5fe7fcce3c3a85c5d9388b/tumblr_n5ra7tp0Ip1qfqv8do1_500.gif"); */
 	background-position: center;
 	background-repeat: none;
 	background-size: cover;
 	background-size: 100%;
 	background-repeat: none;
 }
-
-
-
 
 /****************
 HISTORY PAGE
@@ -584,7 +554,7 @@ HISTORY PAGE
 }
 
 #title-history {
-	background-color: rgba(144, 89, 76, 0.4);
+	background-color: rgba(32, 38, 211, 0.2);
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -601,7 +571,6 @@ HISTORY PAGE
 }
 
 #listOfProfiles section {
-	background-color: rgba(144, 89, 76, 0.4);
 	border-left: 2px solid #660000;
 	border-right: 2px solid #660000;
 	border-bottom: 2px solid #660000;
@@ -611,6 +580,10 @@ HISTORY PAGE
 	padding-top: 25px;
 	padding-left: 40px;
 
+}
+
+.profile {
+	background-color: rgba(32, 38, 211, 0.2);
 }
 
 .profile ul {
@@ -665,7 +638,6 @@ HISTORY PAGE
 	padding: 0;
 }
 
-
 .photo {
 	border-radius: 50%;
 	border: 2px solid #660000;
@@ -690,16 +662,11 @@ HISTORY PAGE
 ****************/
 
 #contacts-content {
-	/* width: 750px; */
 	margin: 0 auto;
 }
 
 #contact {
-	/* background-size: 750px 750px; */
 	background-color: #403F4C;
-	/*background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center top;*/
 }
 
 .contactpage {
@@ -707,7 +674,6 @@ HISTORY PAGE
 	text-align: center;
 	display: block;
 	color: white;
-	/* width: 50%; */
 }
 
 .contactpage-map {
@@ -756,4 +722,22 @@ HISTORY PAGE
 
 #contactpageimage {
 	border: 2px solid #660000;
+}
+
+/* from https://css-tricks.com/almanac/properties/a/animation/ */
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
 }

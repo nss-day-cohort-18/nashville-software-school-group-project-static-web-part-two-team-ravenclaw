@@ -14,46 +14,68 @@
 var product = [
 	{
 		title1: "Kitten Mittons for your infant kitty aged 5 months and under",
-		description1: "Lorem ipsum dolor sit amet, quis morbi, habitasse pellentesque. Mi eget, diam ac nec, consequat posuere. Curabitur wisi, elit vestibulum. Suspendisse magnam donec, ut dictum vitae, pellentesque ultrices. Sodales nisl, porttitor pellentesque massa. Cras nunc.", 
+		description1: "Mittens for the baby kitty", 
 		price1: "PRICE: $5.00",
 		URL1: "http://www.kittenmittons.com/infants.gc",
 		photo1: "images/mit1.jpg",
 	},
 	{
 		title2: "Kitten Mittons for the 'young adult' kitten aged 5 to 12 months",
-		description2: "Lorem ipsum dolor sit amet, dolorem vel malesuada. Mauris etiam pretium, at ut, nisl rhoncus. Dolor et, tincidunt commodi. Vestibulum vehicula nulla. Amet velit. Sed tristique, ac massa.",
+		description2: "For the young baby kitty",
 		price2: "PRICE: $10.00",
 		URL2: "hhttp://www.kittenmittons.com/youth.gc",
 		photo2: "images/mit2.JPG",
 	},
 	{
 		title3: "Kitten Mittonss for your Kitty age 1 to DEATH",
-		description3: "Lorem ipsum dolor sit amet, pellentesque rhoncus. Congue donec eget. Phasellus hac, justo vestibulum, vestibulum praesent lectus. A tellus risus, montes vitae. Quis tortor, pretium non, feugiat enim. Suspendisse placerat leo.",
+		description3: "Kitty Mittons for the kitten of all ages",
 		price3: "PRICE: $15.00",
 		URL3: "http://www.kittenmittons.com/senior.gc",
 		photo3: "images/mit3.jpg",
 	},
-	/* {
-		title4: "Fender Limited Edition American Standard Telecaster",
-		description4: "Thi",
-		price4: "PRICE: $1449.99",
-		URL4: "http://www.guitarcenter.com/Fender/Limited-Edition-American-Standard-Telecaster-Rosewood-Neck-Electric-Guitar.gc",
-		photo4: "images/fenderTele.png",
+	
+	{
+		title4: "Siamese Kitten Mittons",
+		description4: "Mittens uniquely developed for Siamese breeds",
+		price4: "PRICE: $5.00",
+		URL4: "http://www.kittenmittens.com/siamese.gc",
+		photo4: "images/mit4.jpg",
 	},
 	{
-		title5: "PRS 2017 SE 277 Baritone Electric Guitar",
-		description5: "Built with a .",
-		price5: "PRICE: $749.00",
-		URL5: "http://www.guitarcenter.com/PRS/2017-SE-277-Baritone-Electric-Guitar.gc",
-		photo5: "images/prs.png",
+		title5: "Senior Citizen Kitten Mittons",
+		description5: "Mittens Designed for the Older Kitten with Mobility Problems",
+		price5: "PRICE: $7.00",
+		URL5: "http://www.kittenmittens.com/oldie.gc",
+		photo5: "images/mit5.jpg",
 	},
 	{
-		title6: "Gretsch Guitars G6136T White Falcon with Bigsby",
-		description6: "Luxurious .",
-		price6: "PRICE: $3499.00",
-		URL6: "http://www.guitarcenter.com/Gretsch-Guitars/G6136T-White-Falcon-with-Bigsby.gc",
-		photo6: "images/gretsch.png",
-	}, */
+		title6: "Athletic Teenage Kitten Mittons",
+		description6: "Kitten Designed for the Athletic Teenage Kitten who Plays Sports",
+		price6: "PRICE: $4.00",
+		URL6: "http://www.kittenmittens.com/sporty.gc",
+		photo6: "images/mit6.jpg",
+	}, 
+	{
+		title7: "Edgy and Hip Kitten Mittons",
+		description7: "For the Kitten who likes to look HIP",
+		price7: "PRICE: $8.00",
+		URL7: "http://www.kittenmittens.com/trendy.gc",
+		photo7: "images/mit7.jpg",
+	},
+	{
+		title8: "Hipster Mittons",
+		description8: "For the East Nashville Kitten",
+		price8: "PRICE: $9.00",
+		URL8: "http://www.kittenmittens.com/eastnasty.gc",
+		photo8: "images/mit8.jpg",
+	},
+	{
+		title8: "Suburban Mittons",
+		description8: "For the Williamson County Kitty",
+		price8: "PRICE: $40.00",
+		URL8: "http://www.kittenmittens.com/suburb.gc",
+		photo8: "images/mit9.jpg",
+	}
 ];
 
 
